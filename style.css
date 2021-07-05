@@ -1,25 +1,26 @@
-.app{
+.app {
   background: rgba(156, 245, 29, 0.91);
   display: grid;
   font-family: arial, helvetica, sans-serif;
   grid-template-areas:
-  "cabecalho"
-  "conteudo"
-  "rodape";
+    "cabecalho"
+    "conteudo"
+    "rodape";
   grid-template-columns: auto;
-  grid-template-rows: 50px auto auto;
+  grid-template-rows: 70px 90vh auto;
+}
 
+.cabecalho {
+  background: rgb(63, 169, 171);
+  grid-area: cabecalho;
 }
-.cabecalho{
-background: rgb(63, 169, 171);
-grid-area: cabecalho;
 
+.conteudo {
+  background: rgb(78, 26, 68);
+  grid-area: conteudo;
 }
-.conteudo{
-background: rgb(78, 26, 68);
-grid-area: conteudo;
-}
-.rodape{
-background: rgb(151, 101, 242);
-grid-area: rodape;
+
+.rodape {
+  background: rgb(151, 101, 242);
+  grid-area: rodape;
 }
